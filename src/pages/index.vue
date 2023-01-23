@@ -21,7 +21,7 @@ const handleHref = (url: string) => {
         <span>{{ item.name }}</span>
       </el-menu-item>
     </el-menu>
-    <div>
+    <div class="content">
       <div class="tip">
         前端交流群，欢迎加入，与500名前端开发者一起交流，<span class="join" @click="visible = true">点击加入</span>
       </div>
@@ -66,6 +66,12 @@ const handleHref = (url: string) => {
 
 .container {
   display: flex;
+}
+
+.content {
+  height: calc(100vh - 60px);
+  flex: 1;
+  box-sizing: border-box;
 }
 
 .menu {

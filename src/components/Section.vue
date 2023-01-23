@@ -25,13 +25,10 @@ let visible = ref(false)
 
 <style scoped>
 .section {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 90px);
   overflow-y: auto;
-  flex: 1;
-  flex-wrap: wrap;
   padding: 32px;
   box-sizing: border-box;
-  position: relative;
 }
 
 .main-title {
