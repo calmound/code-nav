@@ -15,5 +15,5 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
-  base:'/code-nav/'
+  base: '/code-nav/'
 });

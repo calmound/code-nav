@@ -1,30 +1,37 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { RECOMMEND } from '../constant';
+let visible = ref(false)
+
 </script>
+
 <template>
   <div class="section">
-    <div v-for="(item, index) in RECOMMEND">
+    <div v-for="(item, index) in RECOMMEND" :id="item.name">
       <div class="main-title">{{ item.name }}</div>
       <div class="list">
         <a href="p.url" v-for="p in item.list" target="_blank">
-          <el-card shadow="hover" class="box-card">
-            <template #header>
-              <div class="card-header">
-                {{ p.title }}
-              </div>
-            </template>
-            <div>{{ p.desc }}</div>
+          <el-card :body-style="{ padding: '12px' }" shadow="hover" class="box-card">
+            <div class="title">
+              {{ p.title }}
+            </div>
+            <div class="desc">{{ p.desc }}</div>
           </el-card>
         </a>
       </div>
     </div>
   </div>
 </template>
+
 <style scoped>
 .section {
+  height: calc(100vh - 70px);
+  overflow-y: auto;
   flex: 1;
   flex-wrap: wrap;
-  margin-left: 32px;
+  padding: 32px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .main-title {
@@ -37,6 +44,7 @@ import { RECOMMEND } from '../constant';
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-bottom: 12px;
 }
 
 .box-card {
@@ -49,7 +57,18 @@ import { RECOMMEND } from '../constant';
   cursor: pointer;
 }
 
-.box-card:hover .card-header {
+.title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.box-card:hover .title {
   color: rgb(117, 82, 232);
+  white-space: nowrap;
+}
+
+.desc {
+  height: 30px;
+  font-size: 12px;
 }
 </style>
