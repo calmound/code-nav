@@ -1,0 +1,20 @@
+"filename", "language", "Vue", "TypeScript", "XML", "CSS", "JSON", "JSON with Comments", "HTML", "Markdown", "comment", "blank", "total"
+"/Users/moka/zhusen/self/code-nav/README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 11, 0, 8, 19
+"/Users/moka/zhusen/self/code-nav/auto-imports.d.ts", "TypeScript", 0, 3, 0, 0, 0, 0, 0, 0, 1, 2, 6
+"/Users/moka/zhusen/self/code-nav/components.d.ts", "TypeScript", 0, 19, 0, 0, 0, 0, 0, 0, 3, 3, 25
+"/Users/moka/zhusen/self/code-nav/index.html", "HTML", 0, 0, 0, 0, 0, 0, 13, 0, 0, 1, 14
+"/Users/moka/zhusen/self/code-nav/package-lock.json", "JSON", 0, 0, 0, 0, 985, 0, 0, 0, 0, 1, 986
+"/Users/moka/zhusen/self/code-nav/package.json", "JSON", 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"/Users/moka/zhusen/self/code-nav/public/vite.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/Users/moka/zhusen/self/code-nav/src/App.vue", "Vue", 21, 0, 0, 0, 0, 0, 0, 0, 0, 2, 23
+"/Users/moka/zhusen/self/code-nav/src/assets/vue.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/Users/moka/zhusen/self/code-nav/src/components/HelloWorld.vue", "Vue", 32, 0, 0, 0, 0, 0, 0, 0, 0, 7, 39
+"/Users/moka/zhusen/self/code-nav/src/components/Section.vue", "Vue", 23, 0, 0, 0, 0, 0, 0, 0, 0, 2, 25
+"/Users/moka/zhusen/self/code-nav/src/main.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"/Users/moka/zhusen/self/code-nav/src/pages/index.vue", "Vue", 55, 0, 0, 0, 0, 0, 0, 0, 0, 8, 63
+"/Users/moka/zhusen/self/code-nav/src/style.css", "CSS", 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"/Users/moka/zhusen/self/code-nav/src/vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"/Users/moka/zhusen/self/code-nav/tsconfig.json", "JSON with Comments", 0, 0, 0, 0, 0, 19, 0, 0, 0, 1, 20
+"/Users/moka/zhusen/self/code-nav/tsconfig.node.json", "JSON", 0, 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"/Users/moka/zhusen/self/code-nav/vite.config.ts", "TypeScript", 0, 16, 0, 0, 0, 0, 0, 0, 1, 2, 19
+"Total", "-", 131, 43, 2, 16, 1017, 19, 13, 11, 6, 45, 1303

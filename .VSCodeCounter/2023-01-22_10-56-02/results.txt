@@ -1,0 +1,56 @@
+Date : 2023-01-22 10:56:02
+Directory : /Users/moka/zhusen/self/code-nav
+Total : 18 files,  1252 codes, 6 comments, 45 blanks, all 1303 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          3 |      1,017 |          0 |          3 |      1,020 |
+| Vue                |          4 |        131 |          0 |         19 |        150 |
+| TypeScript         |          5 |         43 |          6 |         10 |         59 |
+| JSON with Comments |          1 |         19 |          0 |          1 |         20 |
+| CSS                |          1 |         16 |          0 |          3 |         19 |
+| HTML               |          1 |         13 |          0 |          1 |         14 |
+| Markdown           |          1 |         11 |          0 |          8 |         19 |
+| XML                |          2 |          2 |          0 |          0 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                              |         18 |      1,252 |          6 |         45 |      1,303 |
+| . (Files)                                                      |          9 |      1,098 |          5 |         20 |      1,123 |
+| public                                                         |          1 |          1 |          0 |          0 |          1 |
+| src                                                            |          8 |        153 |          1 |         25 |        179 |
+| src (Files)                                                    |          4 |         42 |          1 |          8 |         51 |
+| src/assets                                                     |          1 |          1 |          0 |          0 |          1 |
+| src/components                                                 |          2 |         55 |          0 |          9 |         64 |
+| src/pages                                                      |          1 |         55 |          0 |          8 |         63 |
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                       | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/moka/zhusen/self/code-nav/README.md                     | Markdown           |         11 |          0 |          8 |         19 |
+| /Users/moka/zhusen/self/code-nav/auto-imports.d.ts             | TypeScript         |          3 |          1 |          2 |          6 |
+| /Users/moka/zhusen/self/code-nav/components.d.ts               | TypeScript         |         19 |          3 |          3 |         25 |
+| /Users/moka/zhusen/self/code-nav/index.html                    | HTML               |         13 |          0 |          1 |         14 |
+| /Users/moka/zhusen/self/code-nav/package-lock.json             | JSON               |        985 |          0 |          1 |        986 |
+| /Users/moka/zhusen/self/code-nav/package.json                  | JSON               |         23 |          0 |          1 |         24 |
+| /Users/moka/zhusen/self/code-nav/public/vite.svg               | XML                |          1 |          0 |          0 |          1 |
+| /Users/moka/zhusen/self/code-nav/src/App.vue                   | Vue                |         21 |          0 |          2 |         23 |
+| /Users/moka/zhusen/self/code-nav/src/assets/vue.svg            | XML                |          1 |          0 |          0 |          1 |
+| /Users/moka/zhusen/self/code-nav/src/components/HelloWorld.vue | Vue                |         32 |          0 |          7 |         39 |
+| /Users/moka/zhusen/self/code-nav/src/components/Section.vue    | Vue                |         23 |          0 |          2 |         25 |
+| /Users/moka/zhusen/self/code-nav/src/main.ts                   | TypeScript         |          5 |          0 |          2 |          7 |
+| /Users/moka/zhusen/self/code-nav/src/pages/index.vue           | Vue                |         55 |          0 |          8 |         63 |
+| /Users/moka/zhusen/self/code-nav/src/style.css                 | CSS                |         16 |          0 |          3 |         19 |
+| /Users/moka/zhusen/self/code-nav/src/vite-env.d.ts             | TypeScript         |          0 |          1 |          1 |          2 |
+| /Users/moka/zhusen/self/code-nav/tsconfig.json                 | JSON with Comments |         19 |          0 |          1 |         20 |
+| /Users/moka/zhusen/self/code-nav/tsconfig.node.json            | JSON               |          9 |          0 |          1 |         10 |
+| /Users/moka/zhusen/self/code-nav/vite.config.ts                | TypeScript         |         16 |          1 |          2 |         19 |
+| Total                                                          |                    |      1,252 |          6 |         45 |      1,303 |
++----------------------------------------------------------------+--------------------+------------+------------+------------+------------+
