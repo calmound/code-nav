@@ -7,7 +7,7 @@ import { RECOMMEND } from '../constant';
     <div v-for="(item, index) in RECOMMEND" :id="item.name">
       <div class="main-title">{{ item.name }}</div>
       <div class="list">
-        <a href="p.url" v-for="p in item.list" target="_blank">
+        <a :href="p.url" v-for="p in item.list" target="_blank">
           <el-card :body-style="{ padding: '12px' }" shadow="hover" class="box-card">
             <div class="title">
               {{ p.title }}
