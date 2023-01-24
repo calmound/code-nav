@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { RECOMMEND } from '../constant';
-let visible = ref(false)
-
 </script>
 
 <template>
@@ -15,7 +12,7 @@ let visible = ref(false)
             <div class="title">
               {{ p.title }}
             </div>
-            <div class="desc">{{ p.desc }}</div>
+            <div class="desc">{{ p.desc }} </div>
           </el-card>
         </a>
       </div>
@@ -57,6 +54,9 @@ let visible = ref(false)
 .title {
   font-size: 20px;
   margin-bottom: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .box-card:hover .title {
@@ -67,5 +67,6 @@ let visible = ref(false)
 .desc {
   height: 30px;
   font-size: 12px;
+  overflow: hidden;
 }
 </style>
